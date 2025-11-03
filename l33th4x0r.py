@@ -1,0 +1,2 @@
+font,bgr,bgg,bgb,fgr,fgg,fgb=open(0).read().split()
+print("L33T H4X0R" if sum((font=="monospace", abs(int(bgr)-0)+abs(int(bgg)-0)+abs(int(bgb)-0)<=25, abs(int(fgr)-0)+abs(int(fgg)-255)+abs(int(fgb)-0)<=35))>=2 else "n00b")
