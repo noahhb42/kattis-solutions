@@ -1,6 +1,11 @@
 {
     "files.associations": {
         "vector": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "array": "cpp",
+        "unordered_set": "cpp",
+        "ios": "cpp",
+        "iostream": "cpp",
+        "string": "cpp"
     }
 }
