@@ -1,0 +1,2 @@
+from itertools import permutations as P
+while(a:=input().split())!=['0']*2:s=input();F=eval('lambda '+','.join(c for c in s if c.isalpha())+':'+s);print('YES'if any(int(a[-1])==F(*p)for p in P(map(int,a[1:-1])))else'NO')

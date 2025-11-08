@@ -1,0 +1,1 @@
+a,b=[sum(int(x)*y for x,y in zip(input().split(':'),(3600,60,1)))for _ in'01'];print((b-a)%86400)
