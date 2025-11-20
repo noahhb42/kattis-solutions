@@ -6,6 +6,8 @@
         "unordered_set": "cpp",
         "ios": "cpp",
         "iostream": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "iomanip": "cpp"
     }
 }
