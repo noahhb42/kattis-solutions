@@ -12,4 +12,9 @@ int main() {
 	cin.tie(0)->sync_with_stdio(0);
 	cin.exceptions(cin.failbit);
 
+    ll n;cin>>n;
+    string ans = "";
+    string cur;
+    rep(i,0,n){cin>>cur; ans += (cur[i]=='0' ? '1' : '0');}
+    cout<<ans<<"\n";
 }
